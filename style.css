@@ -1,0 +1,17 @@
+@import url('https://fonts.cdnfonts.com/css/armata-2');
+
+body {
+  font-family: 'Armata', sans-serif;
+}
+                
+.logo {
+  display: flex;
+}
+
+.menu_block {
+  display: none;
+}
+
+.menu_block.displayed {
+  display: block;
+}
