@@ -17,14 +17,24 @@
       <h1>PLUS+</h1>
     </div>
 
+    <a href="#"><button>Contact Us</button></a>
+
     <nav class="main_menu">
-      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      <i class="fa-solid fa-bars menu_toggle" onclick="showMenu()"></i>
 
       <ul class="menu_block">
         <a href="#"><li>About</li></a>
         <a href="#"><li>Clients</li></a>
-        <a href="#"><li>Pages <i class="fa-solid fa-chevron-down"></i></li></a>
+        <a href="#"><li>Pages<i class="fa-solid fa-chevron-down" onclick="showPages()"></i></li></a>
       </ul>
+
+      <div class="pages_list" style="display: none;">
+        <ul>
+          <a href="">Healthy Recipes</a>
+          <a href="">Clients Feedback</a>
+          <a href="">Work With Us</a>
+        </ul>
+      </div>
     </nav>
   </header>
 

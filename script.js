@@ -7,3 +7,6 @@ function showMenu() {
   menu.classList.toggle('displayed');
   menuIcon.classList.toggle('fa-x');
 }
+
+// mostras as opções em menu>pages
+

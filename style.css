@@ -1,11 +1,45 @@
 @import url('https://fonts.cdnfonts.com/css/armata-2');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Armata', sans-serif;
 }
                 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo {
   display: flex;
+  font-size: 16pt;
+  margin: 20px;
+}
+
+.logo h1:last-child {
+  color:#ff7011;
+}
+
+header button {
+  background-color: #367711;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 20px;
+  height: 40px;
+  margin-left: -70px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.menu_toggle {
+  position: absolute;
+  font-size: 16pt;
+  margin-left: -30px;
+  margin-top: 10px;
 }
 
 .menu_block {
