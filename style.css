@@ -37,8 +37,8 @@ header {
 
 header p {
   position: absolute;
-  margin-top: 130px;
-  margin-left: 30px;
+  margin-top: 90px;
+  margin-left: 20px;
   font-size: 15pt;
   font-weight: 600;
 }
@@ -140,6 +140,29 @@ header a button {
   margin-top: 15px;
 }
 
+.form {
+  margin-top: 70px;
+  background-color: #e6e6e6;
+  margin-left: -30px;
+  padding: 20px 20px 50px 20px;
+}
+
+.form input {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin-top: 10px;
+  border: 2px solid #367711;
+  border-radius: 20px;
+}
+
+.form input:last-child {
+  margin-left: 200px;
+  margin-top: -90px;
+  background-color: #367711;
+  color: #fff;
+}
+
 .onlineDoctor {
   margin-top: 100px;
   margin-left: 30px;
@@ -163,4 +186,39 @@ header a button {
   padding: 10px;
   color: #fff;
   border: 1px solid #000;
+}
+
+footer {
+  background-color: #e6e6e6;
+  position: absolute;
+  width: 450px;
+  margin-top: 100px;
+  padding: 8px;
+}
+
+footer .logo {
+  font-size: 8pt;
+}
+
+footer .logo h1:first-child,
+footer .logo h1:last-child {
+  border: none;
+}
+
+footer .social {
+  width: 100px;
+  margin-left: 300px;
+  margin-top: -90px;
+}
+
+footer .social a {
+  list-style: none;
+  text-decoration: none;
+}
+
+footer p {
+  color: #000;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 25px;
 }
